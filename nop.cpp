@@ -26,7 +26,7 @@ int main()
 	cout << "Final :" << final << endl ;
 	Total = QuizzTotal + mid_term + final ;
 	cout << " Total :" << Total << endl ;
-	cout << " Our score is " << ((Total) >=50 ? "PASS": "FAIL") << endl ;
+	cout << " Your score is " << ((Total) >=50 ? "PASS": "FAIL") << endl ;
     
 	system("pause");
 	return (0);	
